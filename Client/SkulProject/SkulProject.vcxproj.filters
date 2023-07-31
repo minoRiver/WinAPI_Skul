@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{db42636c-5ea4-440b-ab65-f2fbc05bec48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Engine">
+      <UniqueIdentifier>{47c12d1b-b03c-481a-b840-03d9627af3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\1. Header">
+      <UniqueIdentifier>{ef66d828-f36d-4beb-8be7-ec377a64e9d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\2. System">
+      <UniqueIdentifier>{ab414d09-11bc-4604-8a55-f5c67add5ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\2. System\Input">
+      <UniqueIdentifier>{4353b637-8f55-42d4-b279-2ff1bf6a18da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\2. System\Time">
+      <UniqueIdentifier>{bcbfc96a-73b8-4f56-8e77-1074e63a8e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\2. System\Core">
+      <UniqueIdentifier>{017f2032-8c80-4ed8-9e82-70bd6ffde49a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\3. GameObject">
+      <UniqueIdentifier>{c907a117-09bd-44d7-9c10-617f5f870007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\4. Component">
+      <UniqueIdentifier>{ecbaa4a9-1fa0-43de-8e78-035ea17ed891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\5. Scene">
+      <UniqueIdentifier>{f62b9b24-f484-47c9-8c14-2f0cd3f38dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\6. Resource">
+      <UniqueIdentifier>{fbc02916-4c89-4ed9-9e22-ccc1af8c6126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\2. System\PathManager">
+      <UniqueIdentifier>{38816dd0-2f61-436b-89ed-0d5cd2772270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\4. Component\Animation">
+      <UniqueIdentifier>{717942aa-21d4-4045-a8e2-417857d57d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\4. Component\Animator">
+      <UniqueIdentifier>{4fa9f59d-d4e0-44aa-9bb8-cf600423ba26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\4. Component\Collider">
+      <UniqueIdentifier>{1d3e0dcb-a67a-4e56-b146-f9a47af305ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\6. Resource\Texture">
+      <UniqueIdentifier>{9712caa3-0139-4bcf-b494-6d24c5389367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\6. Resource\Sound">
+      <UniqueIdentifier>{f7af8265-02cc-4826-8881-401d536399ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\4. Component\Transform">
+      <UniqueIdentifier>{581bee9e-b78d-4555-98e2-64d13cacb62c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\2. System\SoundManager">
+      <UniqueIdentifier>{762209f3-cee9-458b-9b0e-106478712cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\2. System\ResourceManager">
+      <UniqueIdentifier>{bad246ec-61e8-419e-b8b0-5af34f382c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\2. System\ColliderManager">
+      <UniqueIdentifier>{8b1d9c73-6f9e-437c-a2b8-d620d6fdc8d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\2. System\SceneManager">
+      <UniqueIdentifier>{995b565d-c706-4df1-926c-9b71ae13f636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\2. System\HandleStore">
+      <UniqueIdentifier>{ccd4adbf-2fb7-4b23-9cd8-1b311e0da307}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="SkulProject.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="global_define.h">
+      <Filter>01. Engine\1. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="global_enum.h">
+      <Filter>01. Engine\1. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="global_struct.h">
+      <Filter>01. Engine\1. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="global_include.h">
+      <Filter>01. Engine\1. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>01. Engine\2. System\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>01. Engine\2. System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>01. Engine\4. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>01. Engine\2. System\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>01. Engine\2. System\PathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IBehaviour.h">
+      <Filter>01. Engine\1. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>01. Engine\4. Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>01. Engine\4. Component\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>01. Engine\4. Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="GameResource.h">
+      <Filter>01. Engine\6. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>01. Engine\6. Resource\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>01. Engine\6. Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01. Engine\3. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>01. Engine\4. Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>01. Engine\5. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>01. Engine\2. System\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>01. Engine\2. System\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderManager.h">
+      <Filter>01. Engine\2. System\ColliderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>01. Engine\2. System\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleStore.h">
+      <Filter>01. Engine\2. System\HandleStore</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SkulProject.rc">
+      <Filter>99. Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99. Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="SkulProject.ico">
+      <Filter>99. Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SkulProject.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>01. Engine\2. System\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>01. Engine\2. System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>01. Engine\4. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>01. Engine\2. System\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>01. Engine\2. System\PathManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>01. Engine\4. Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>01. Engine\4. Component\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>01. Engine\4. Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="GameResource.cpp">
+      <Filter>01. Engine\6. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>01. Engine\6. Resource\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>01. Engine\6. Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01. Engine\3. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>01. Engine\4. Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>01. Engine\5. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>01. Engine\2. System\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>01. Engine\2. System\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderManager.cpp">
+      <Filter>01. Engine\2. System\ColliderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>01. Engine\2. System\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleStore.cpp">
+      <Filter>01. Engine\2. System\HandleStore</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
